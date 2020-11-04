@@ -1,0 +1,11 @@
+.navbar {
+    background-color: rgb(4, 25, 56) !important;
+  }
+
+  /* Making the name an ID gives my values priority over the Bootstrap ones */
+#name {
+    color: rgb(240, 230, 187);
+    font-family: serif, "Times New Roman", Times;
+    font-weight: 600;
+    font-size: 170%;
+  }

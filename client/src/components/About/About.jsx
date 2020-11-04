@@ -16,7 +16,7 @@ function About() {
                     className="img img-thumbnail"
                     id="float-left"
                     src="./assets/about-me.png"
-                    alt="Photo of Jamie Jones"
+                    alt="Jamie Jones"
                     width="350"
                     height="350"
                   />

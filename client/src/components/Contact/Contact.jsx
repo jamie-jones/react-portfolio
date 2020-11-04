@@ -1,8 +1,9 @@
 import React from 'react';
+import "./Contact.css";
 
-const Contact = () => {
+function Contact() {
     return (
-            <main className="content">
+    <main className="content">
       <div className="container">
         <div className="row">
           <div className="col-sm-8">
