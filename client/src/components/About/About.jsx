@@ -1,10 +1,9 @@
 import React from "react";
 import "./About.css";
 
-const About = () => {
+function About() {
     return(
-        <>
-        <main className="content">
+     <main className="content">
       <div className="container">
         <div className="row">
           <div className="col-sm-8">
@@ -12,7 +11,6 @@ const About = () => {
               <h1 className="display-4">About Me</h1>
               <hr className="my-4" />
               <section className="row">
-                <!--Putting the paragraph and the image in the same column, and making the thumbnail float left allows the paragraph to frame the two available sides-->
                 <section className="col-sm-12">
                   <img
                     className="img img-thumbnail"
@@ -56,6 +54,7 @@ const About = () => {
         </div>
       </div>
     </main>
-        </>
     )
 }
+
+export default About;
