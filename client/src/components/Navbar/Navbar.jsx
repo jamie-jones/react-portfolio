@@ -20,14 +20,6 @@ function Navbar() {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item active">
-          <NavLink to="/contact">
-              Contact
-            </NavLink>
-            {/* <a className="nav-link" href="./contact.html"
-              >Contact <span className="sr-only">(current)</span></a
-            > */}
-          </li>
           <li className="nav-item">
           <NavLink to="/portfolio">
               Portfolio
@@ -35,7 +27,7 @@ function Navbar() {
             {/* <a className="nav-link" href="./portfolio.html">Portfolio</a> */}
           </li>
           <li className="nav-item">
-          <NavLink to="/about">
+          <NavLink to="/">
               About Me
             </NavLink>
             {/* <a className="nav-link" href="./index.html">About Me</a> */}

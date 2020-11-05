@@ -1,23 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import About from "./components/About/About.jsx";
-import Contact from "./components/Contact/Contact.jsx"
-import Portfolio from "./components/Portfolio/Portfolio.jsx";
+import "./App.css";
+import About from "./pages/About/About.jsx";
+import Portfolio from "./pages/Portfolio/Portfolio.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <div>
+        <Navbar />
         <Switch>
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
           <Route exact path="/" component={About} />
         </Switch>
+        <Footer />
       </div>
-      <Footer />
     </Router>
   );
 }

@@ -1,11 +1,6 @@
-html,
-body {
-  height: 100%;
-}
-
 /* This makes the background of all pages the same design, which is a url. */
-body {
-  background-image: url(./assets/two-mushrooms-being-cute.jpg);
+.portfolio.background {
+  background-image: url(./images/two-mushrooms-being-cute.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -14,8 +9,10 @@ body {
   flex-direction: column;
 }
 
+p,
 a {
-  color: whitesmoke;
+  color: rgb(240, 230, 187);
+  text-shadow: 2px 2px 3px rgb(4, 25, 56);
 }
 
 /* This is the default of a flex value. */
@@ -25,8 +22,8 @@ a {
 
 /* This turns the navbar around the name the color it needs to be. */
 .navbar {
-  background-color: rgb(139, 168, 72) !important;
-}
+    background-color: rgb(4, 25, 56) !important;
+  }
 
 /* This spaces out the container the correct way that it needs to be, as well as floats it to the left just as it needs to be. */
 .container {
@@ -48,12 +45,12 @@ a {
 
 /* The sticky footer is done with flexbox */
 .footer {
-  color: whitesmoke;
-  text-align: center;
-  font-size: 140%;
-  padding: 20px;
-  flex-shrink: 0;
-}
+    color: rgb(240, 230, 187);
+    text-align: center;
+    font-size: 140%;
+    padding: 20px;
+    flex-shrink: 0;
+  }
 
 .card {
   position: absolute;
@@ -67,6 +64,14 @@ a {
 .links {
   color: whitesmoke;
   font-size: 20px;
+}
+
+.github-icon {
+    color: black;
+}
+
+.linkedin-icon {
+    color: rgb(0,119,181);
 }
 
 /* Making the name an ID gives my values priority over the Bootstrap ones */
