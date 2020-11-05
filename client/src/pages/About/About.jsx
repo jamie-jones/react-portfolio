@@ -17,7 +17,7 @@ const About = () => {
                      class="img img-thumbnail"
                       id="float-left"
                        src={Photo}
-                      alt="Photo of Jamie Jones"
+                      alt="Jamie Jones"
                        width="350"
                        height="350"
                     />
